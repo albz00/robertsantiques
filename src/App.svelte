@@ -13,13 +13,13 @@
 
 <Nav />
 <main>
-  <Hero />
-  <Intro />
-  <Collections />
-  <Featured />
-  <Gallery />
-  <Cellar />
-  <Heritage />
-  <Visit />
+  <div class="load-in" style="--delay: 80ms;"><Hero /></div>
+  <div class="load-in" style="--delay: 180ms;"><Intro /></div>
+  <div class="load-in" style="--delay: 260ms;"><Collections /></div>
+  <div class="load-in" style="--delay: 340ms;"><Featured /></div>
+  <div class="load-in" style="--delay: 420ms;"><Gallery /></div>
+  <div class="load-in" style="--delay: 500ms;"><Cellar /></div>
+  <div class="load-in" style="--delay: 580ms;"><Heritage /></div>
+  <div class="load-in" style="--delay: 660ms;"><Visit /></div>
 </main>
-<Footer />
+<div class="load-in" style="--delay: 740ms;"><Footer /></div>
